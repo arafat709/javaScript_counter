@@ -4,11 +4,14 @@
 }
 
 body {
-    margin: 10px;
-    /* padding: 10px; */
-    box-shadow: -30px 20px -1px black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -30px 20px 10px black;
 }
-
 #parent_div {
     height: 350px;
     display: flex;
